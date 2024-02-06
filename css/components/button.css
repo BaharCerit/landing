@@ -1,0 +1,19 @@
+.btn-green {
+  color: rgba(13, 124, 94, 0.868);
+  padding: 9px 25px;
+  background-origin: border-box;
+  /* background-color: aqua; */
+  background-color: var(--clr);
+  border-radius: 2em;
+  border: solid 1px rgba(13, 124, 94, 0.868);
+  /* color: var(--text); */
+
+}
+
+.btn-green:hover {
+  opacity: 1;
+  background: rgba(13, 124, 94, 0.868);
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s ease;
+}
